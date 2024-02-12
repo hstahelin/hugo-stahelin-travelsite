@@ -1,0 +1,34 @@
+body {
+  font-family: Verdana, sans-serif;
+  margin: 0rem 4rem;
+}
+
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+  align-items: center;
+}
+
+.site-logo {
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+.site-logo__anchor {
+  color: #335567;
+  text-decoration: none;
+}
+.site-nav__list {
+  list-style: none;
+  display: flex;
+}
+.site-nav__anchor {
+  text-decoration: none;
+  color: #335567;
+  margin: 0 0.7rem;
+}
+
+.site-nav__anchor--active {
+  border-bottom: 3px solid #db7a4e;
+  padding-bottom: 0.3rem;
+}
