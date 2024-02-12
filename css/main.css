@@ -1,0 +1,38 @@
+.hero {
+  background-color: #fefaf5;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 5rem 0;
+}
+
+.hero__headline {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.hero__title {
+  color: #335567;
+  font-size: 2rem;
+}
+
+.hero__text-intro {
+  color: #335567;
+}
+.hero__image {
+  width: 400px;
+}
+
+.hero__action-button {
+  display: block;
+  color: #ffffff;
+  background-color: #db7a4e;
+  padding: 0.5rem 2rem;
+  border-radius: 1.5rem;
+  text-decoration: none;
+  font-size: 0.8rem;
+  font-weight: 200;
+  margin-top: 1rem;
+}

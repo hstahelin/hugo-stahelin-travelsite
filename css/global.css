@@ -1,6 +1,6 @@
 body {
   font-family: Verdana, sans-serif;
-  margin: 0rem 4rem;
+  margin: 0;
 }
 
 .site-header {
@@ -8,13 +8,14 @@ body {
   justify-content: space-between;
   background-color: #ffffff;
   align-items: center;
+  margin: 0 4rem;
 }
 
 .site-logo {
   font-weight: 700;
   font-size: 1.1rem;
 }
-.site-logo__anchor {
+.site-logo__link {
   color: #335567;
   text-decoration: none;
 }
@@ -22,13 +23,13 @@ body {
   list-style: none;
   display: flex;
 }
-.site-nav__anchor {
+.site-nav__link {
   text-decoration: none;
   color: #335567;
   margin: 0 0.7rem;
 }
 
-.site-nav__anchor--active {
+.site-nav__link--active {
   border-bottom: 3px solid #db7a4e;
   padding-bottom: 0.3rem;
 }
