@@ -45,6 +45,7 @@
 .destination-cards {
   display: flex;
   justify-content: center;
+  margin-bottom: 4rem;
 }
 
 .destination-card__link {

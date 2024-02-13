@@ -33,3 +33,53 @@ body {
   border-bottom: 3px solid #db7a4e;
   padding-bottom: 0.3rem;
 }
+
+.site-footer {
+  background-color: #fefaf5;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0;
+  padding: 3rem 0;
+}
+
+.footer-contact__title,
+.footer-hours__title,
+.footer-social__title {
+  color: #335567;
+  margin: 0;
+  padding-bottom: 1rem;
+}
+
+.footer-contact__subtitle,
+.footer-hours__subtitle {
+  color: #db7a4e;
+  font-size: 0.6rem;
+  font-weight: 100;
+  margin: 0;
+  padding-bottom: 0.7rem;
+}
+
+.footer-contact__info,
+.footer-hours__info {
+  color: #335567;
+  font-size: 0.9rem;
+  font-weight: 100;
+  margin: 0;
+}
+
+.footer-hours__details {
+  display: flex;
+}
+
+.footer-hours__days {
+  margin-right: 2rem;
+}
+.footer-social__details {
+  display: flex;
+}
+.footer-social__link {
+  margin-right: 1.5rem;
+}
+.footer-social__icon {
+  height: 1.5em;
+}
