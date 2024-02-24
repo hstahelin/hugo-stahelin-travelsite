@@ -50,4 +50,10 @@
   text-align: center;
   margin: 0.5rem 1rem;
   padding: 1rem 0;
+  transition: background-color 2s;
+}
+
+.itinerary-card__activity:hover {
+  background-color: #335567;
+  color: #fff;
 }

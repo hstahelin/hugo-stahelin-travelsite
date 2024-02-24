@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/global.css" />
+    <link rel="stylesheet" href="../css/getstarted.css" />
+    <title>Travel Site - Get Started</title>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="site-logo">
+        <a href="../index.html" class="site-logo__link">Travel Site</a>
+      </div>
+      <nav class="site-nav">
+        <ul class="site-nav__list">
+          <li class="site-nav__item">
+            <a href="../index.html" class="site-nav__link"> Home </a>
+          </li>
+          <li class="site-nav__item">
+            <a href="./hawaii.html" class="site-nav__link">Hawaii</a>
+          </li>
+          <li class="site-nav__item">
+            <a href="./iceland.html" class="site-nav__link">Iceland</a>
+          </li>
+          <li class="site-nav__item">
+            <a href="./greece.html" class="site-nav__link">Greece</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="contact-us">
+      <h1 class="contact-us__title">Contact Us</h1>
+
+      <form class="form" action="#">
+        <div class="form__column">
+          <div class="form__group">
+            <label class="form__label" for="first-name">First Name:</label>
+            <input
+              class="form__input"
+              type="text"
+              id="first-name"
+              name="first-name"
+              required
+            />
+          </div>
+
+          <div class="form__group">
+            <label class="form__label" for="last-name">Last Name:</label>
+            <input
+              class="form__input"
+              type="text"
+              id="last-name"
+              name="last-name"
+              required
+            />
+          </div>
+
+          <div class="form__group">
+            <label class="form__label" for="country">Country:</label>
+            <input
+              class="form__input"
+              type="text"
+              id="country"
+              name="country"
+            />
+          </div>
+
+          <div class="form__group">
+            <label class="form__label" for="city">City:</label>
+            <input class="form__input" type="text" id="city" name="city" />
+          </div>
+        </div>
+
+        <div class="form__column">
+          <div class="form__group">
+            <label class="form__label" for="email">Email:</label>
+            <input
+              class="form__input"
+              type="email"
+              id="email"
+              name="email"
+              required
+            />
+          </div>
+
+          <div class="form__group">
+            <label class="form__label" for="phone">Phone Number:</label>
+            <input class="form__input" type="tel" id="phone" name="phone" />
+          </div>
+          <div class="form__group">
+            <label class="form__label" for="destination"
+              >Select Destination:</label
+            >
+            <select
+              class="form__select"
+              id="destination"
+              name="destination"
+              required
+            >
+              <option value="hawaii">Hawaii</option>
+              <option value="iceland">Iceland</option>
+              <option value="greece">Greece</option>
+            </select>
+          </div>
+          <div class="form__group">
+            <label class="form__label" for="message">Message:</label>
+            <textarea
+              class="form__textarea"
+              id="message"
+              name="message"
+              rows="4"
+              placeholder="Write your question"
+            ></textarea>
+          </div>
+
+          <button class="form__button">Submit</button>
+        </div>
+      </form>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-contact">
+        <h3 class="footer-contact__title">Contact</h3>
+        <h4 class="footer-contact__subtitle">EMAIL</h4>
+        <p class="footer-contact__info">info@travelsite.com</p>
+      </div>
+
+      <div class="footer-hours">
+        <h3 class="footer-hours__title">Hours</h3>
+        <div class="footer-hours__details">
+          <div class="footer-hours__days">
+            <h4 class="footer-hours__subtitle">MONDAY - FRIDAY</h4>
+            <p class="footer-hours__info">9:00 AM - 5:00 PM</p>
+          </div>
+          <div class="footer-hours__days">
+            <h4 class="footer-hours__subtitle">SATURDAY</h4>
+            <p class="footer-hours__info">10:00 AM - 4:00 PM</p>
+          </div>
+          <div class="footer-hours__days">
+            <h4 class="footer-hours__subtitle">SUNDAY</h4>
+            <p class="footer-hours__info">Closed</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-social">
+        <h3 class="footer-social__title">Social</h3>
+        <div class="footer-social__details">
+          <a
+            class="footer-social__link"
+            href="https://www.instagram.com"
+            target="_blank"
+            ><img
+              src="../assets/icons/icon-instagram.png"
+              class="footer-social__icon"
+              alt="Instagram logo"
+          /></a>
+          <a
+            class="footer-social__link"
+            href="https://www.facebook.com"
+            target="_blank"
+            ><img
+              src="../assets/icons/icon-facebook.png"
+              class="footer-social__icon"
+              alt="Facebook logo"
+          /></a>
+          <a
+            class="footer-social__link"
+            href="https://www.twitter.com"
+            target="_blank"
+            ><img
+              src="../assets/icons/icon-twitter.png"
+              class="footer-social__icon"
+              alt="Twitter logo"
+          /></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
