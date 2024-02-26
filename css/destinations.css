@@ -57,3 +57,11 @@
   background-color: #335567;
   color: #fff;
 }
+
+@media (max-width: 600px) {
+  .itinerary-cards {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+}
