@@ -1,3 +1,123 @@
+body {
+  font-family: Verdana, sans-serif;
+  margin: 0;
+}
+
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+  align-items: center;
+  padding: 0.5rem 6rem;
+  position: sticky;
+  top: 0;
+}
+
+.site-logo {
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+.site-logo__link {
+  color: #335567;
+  text-decoration: none;
+}
+
+.site-nav__list {
+  list-style: none;
+  display: flex;
+  padding: 0;
+}
+.site-nav__link {
+  text-decoration: none;
+  color: #335567;
+  margin: 0 0.7rem;
+  padding-bottom: 0.3rem;
+  padding-top: 0.2rem;
+}
+.site-nav__link:hover {
+  border-top: 3px solid #db7a4e;
+}
+.site-nav__link--active {
+  border-bottom: 3px solid #db7a4e;
+}
+
+.site-footer {
+  background-color: #fefaf5;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0;
+  padding: 3rem 6rem;
+}
+
+.footer-title, .footer-social__title, .footer-hours__title, .footer-contact__title {
+  color: #335567;
+  margin: 0;
+  padding-bottom: 1rem;
+}
+
+.footer-subtitle, .footer-hours__subtitle, .footer-contact__subtitle {
+  color: #db7a4e;
+  font-size: 0.6rem;
+  font-weight: 100;
+  margin: 0;
+  padding-bottom: 0.7rem;
+}
+
+.footer-info, .footer-hours__info, .footer-contact__info {
+  color: #335567;
+  font-size: 0.9rem;
+  font-weight: 100;
+  margin: 0;
+}
+
+.footer-hours__details {
+  display: flex;
+}
+.footer-hours__days {
+  margin-right: 2rem;
+}
+
+.footer-social__details {
+  display: flex;
+}
+.footer-social__link {
+  margin-right: 1.5rem;
+}
+.footer-social__icon {
+  height: 1.5em;
+}
+
+@media (max-width: 600px) {
+  .site-header {
+    padding: 0.5rem 1rem;
+  }
+}
+@media (max-width: 380px) {
+  .site-header {
+    flex-direction: column;
+  }
+}
+@media (max-width: 600px) {
+  .site-footer {
+    flex-direction: column;
+    gap: 2rem;
+    padding: 3rem 1rem;
+  }
+}
+@media (min-width: 600px) and (max-width: 1200px) {
+  .site-footer {
+    justify-content: space-between;
+    padding: 3rem 1rem;
+    gap: 1rem;
+  }
+  .footer-hours__details {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .footer-hours__subtitle {
+    padding-bottom: 0.2rem;
+  }
+}
 .hero {
   background-color: #fefaf5;
   display: flex;
@@ -5,18 +125,15 @@
   align-items: center;
   padding: 3rem 0;
 }
-
 .hero__headline {
   width: 45%;
   padding-left: 6rem;
 }
-
 .hero__title {
   color: #335567;
   font-size: 2.2rem;
   margin: 0;
 }
-
 .hero__text-intro {
   color: #335567;
 }
@@ -24,7 +141,6 @@
   width: 450px;
   padding-right: 6rem;
 }
-
 .hero__action-button {
   display: inline-block;
   color: #ffffff;
@@ -36,10 +152,10 @@
   font-weight: 200;
   margin-top: 1rem;
 }
-
 .hero__action-button:hover {
-  background-color: #db7b4edc;
+  background-color: rgba(219, 123, 78, 0.862745098);
 }
+
 .recommendations__title {
   color: #335567;
   margin: 2rem 6rem;
@@ -62,33 +178,28 @@
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
   transition: transform 1s;
 }
-
 .destination-card__link:hover {
   transform: scale(1.1);
   box-shadow: 0px 4px 4px #335567;
 }
-
 .destination-card__image {
   width: 275px;
   height: 415px;
   background-size: cover;
   background-repeat: no-repeat;
 }
-.destination-card__title {
-  color: #ffffff;
-  padding-right: 1rem;
-}
-
 .destination-card__image--hawaii {
   background-image: url(../assets/images/hawaii.jpg);
 }
-
 .destination-card__image--iceland {
   background-image: url(../assets/images/iceland.jpg);
 }
-
 .destination-card__image--greece {
   background-image: url(../assets/images/greece.jpg);
+}
+.destination-card__title {
+  color: #ffffff;
+  padding-right: 1rem;
 }
 
 @media (max-width: 600px) {
@@ -105,7 +216,6 @@
     padding-left: 1rem;
   }
 }
-
 @media (min-width: 600px) and (max-width: 1200px) {
   .hero {
     align-items: flex-start;
@@ -117,21 +227,18 @@
     padding-left: 0.5rem;
   }
 }
-
 @media (max-width: 600px) {
   .destination-cards {
     flex-direction: column;
     align-items: center;
   }
 }
-
 @media (min-width: 600px) and (max-width: 1000px) {
   .destination-cards {
     gap: 0.5rem;
   }
-
   .destination-card__image {
     width: 30vw;
     max-width: 275px;
   }
-}
+}/*# sourceMappingURL=main.css.map */
