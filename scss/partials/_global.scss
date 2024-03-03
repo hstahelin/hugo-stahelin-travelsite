@@ -1,3 +1,5 @@
+@use "variables" as *;
+
 body {
   font-family: Verdana, sans-serif;
   margin: 0;
@@ -6,7 +8,7 @@ body {
 .site-header {
   display: flex;
   justify-content: space-between;
-  background-color: #ffffff;
+  background-color: $color-canvas;
   align-items: center;
   padding: 0.5rem 6rem;
   position: sticky;
@@ -18,7 +20,7 @@ body {
   font-size: 1.1rem;
 
   &__link {
-    color: #335567;
+    color: $color-text-primary;
     text-decoration: none;
   }
 }
@@ -32,23 +34,23 @@ body {
 
   &__link {
     text-decoration: none;
-    color: #335567;
+    color: $color-text-primary;
     margin: 0 0.7rem;
     padding-bottom: 0.3rem;
     padding-top: 0.2rem;
 
     &:hover {
-      border-top: 3px solid #db7a4e;
+      border-top: 3px solid $color-ui-primary;
     }
 
     &--active {
-      border-bottom: 3px solid #db7a4e;
+      border-bottom: 3px solid $color-ui-primary;
     }
   }
 }
 
 .site-footer {
-  background-color: #fefaf5;
+  background-color: $color-canvas-secondary;
   display: flex;
   justify-content: space-evenly;
   margin: 0;
@@ -56,13 +58,13 @@ body {
 }
 
 .footer-title {
-  color: #335567;
+  color: $color-text-primary;
   margin: 0;
   padding-bottom: 1rem;
 }
 
 .footer-subtitle {
-  color: #db7a4e;
+  color: $color-ui-primary;
   font-size: 0.6rem;
   font-weight: 100;
   margin: 0;
@@ -70,7 +72,7 @@ body {
 }
 
 .footer-info {
-  color: #335567;
+  color: $color-text-primary;
   font-size: 0.9rem;
   font-weight: 100;
   margin: 0;

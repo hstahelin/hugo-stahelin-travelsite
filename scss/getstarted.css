@@ -18,7 +18,7 @@ body {
   font-size: 1.1rem;
 }
 .site-logo__link {
-  color: #335567;
+  color: #335576;
   text-decoration: none;
 }
 
@@ -29,7 +29,7 @@ body {
 }
 .site-nav__link {
   text-decoration: none;
-  color: #335567;
+  color: #335576;
   margin: 0 0.7rem;
   padding-bottom: 0.3rem;
   padding-top: 0.2rem;
@@ -50,7 +50,7 @@ body {
 }
 
 .footer-title, .footer-social__title, .footer-hours__title, .footer-contact__title {
-  color: #335567;
+  color: #335576;
   margin: 0;
   padding-bottom: 1rem;
 }
@@ -64,7 +64,7 @@ body {
 }
 
 .footer-info, .footer-hours__info, .footer-contact__info {
-  color: #335567;
+  color: #335576;
   font-size: 0.9rem;
   font-weight: 100;
   margin: 0;
@@ -134,7 +134,7 @@ body {
 .form {
   background-color: rgba(255, 255, 255, 0.831372549);
   padding: 20px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   width: 70%;
   display: flex;
   border-radius: 5px;
@@ -165,7 +165,7 @@ body {
 }
 .form__button {
   background-color: #db7a4e;
-  color: #fff;
+  color: #ffffff;
   padding: 0.7rem 2.5rem;
   font-size: 16px;
   border: none;

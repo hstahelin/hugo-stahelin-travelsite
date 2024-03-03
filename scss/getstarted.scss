@@ -1,4 +1,5 @@
 @use "./partials/global" as *;
+@use "./partials/variables" as *;
 
 .contact-us {
   background-position: center;
@@ -7,7 +8,7 @@
   border: thin transparent solid;
 
   &__title {
-    color: #ffffff;
+    color: $color-canvas;
     font-size: 4rem;
     padding: 4rem 4rem 0rem 4rem;
     margin: 0;
@@ -15,9 +16,9 @@
 }
 
 .form {
-  background-color: #ffffffd4;
+  background-color: $color-canvas-transparent;
   padding: 20px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 5px $color-canvas-shadow;
   width: 70%;
   display: flex;
   border-radius: 5px;
@@ -44,7 +45,7 @@
     width: 100%;
     padding: 10px;
     font-size: 14px;
-    border: 0.5px solid #db7a4e;
+    border: 0.5px solid $color-ui-primary;
     border-radius: 5px;
     box-sizing: border-box;
   }
@@ -54,15 +55,15 @@
   }
 
   &__button {
-    background-color: #db7a4e;
-    color: #fff;
+    background-color: $color-ui-primary;
+    color: $color-canvas;
     padding: 0.7rem 2.5rem;
     font-size: 16px;
     border: none;
     border-radius: 1.5rem;
 
     &:hover {
-      background-color: #db7b4edc;
+      background-color: $color-ui-secondary;
     }
   }
 }

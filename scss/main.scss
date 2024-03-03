@@ -1,7 +1,8 @@
 @use "./partials/global" as *;
+@use "./partials/variables" as *;
 
 .hero {
-  background-color: #fefaf5;
+  background-color: $color-canvas-secondary;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -13,13 +14,13 @@
   }
 
   &__title {
-    color: #335567;
+    color: $color-text-primary;
     font-size: 2.2rem;
     margin: 0;
   }
 
   &__text-intro {
-    color: #335567;
+    color: $color-text-primary;
   }
 
   &__image {
@@ -29,8 +30,8 @@
 
   &__action-button {
     display: inline-block;
-    color: #ffffff;
-    background-color: #db7a4e;
+    color: $color-canvas;
+    background-color: $color-ui-primary;
     padding: 0.7rem 2.5rem;
     border-radius: 1.5rem;
     text-decoration: none;
@@ -39,13 +40,13 @@
     margin-top: 1rem;
 
     &:hover {
-      background-color: #db7b4edc;
+      background-color: $color-ui-secondary;
     }
   }
 }
 
 .recommendations__title {
-  color: #335567;
+  color: $color-text-primary;
   margin: 2rem 6rem;
 }
 
@@ -63,15 +64,15 @@
     align-items: flex-end;
     justify-content: flex-end;
     border-radius: 5px;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+    border: 1px solid $color-canvas-shadow;
+    box-shadow: 0px 4px 4px $color-canvas-shadow;
     transition: transform 1s;
   }
 
   &__link {
     &:hover {
       transform: scale(1.1);
-      box-shadow: 0px 4px 4px #335567;
+      box-shadow: 0px 4px 4px $color-text-primary;
     }
   }
 
@@ -95,7 +96,7 @@
   }
 
   &__title {
-    color: #ffffff;
+    color: $color-canvas;
     padding-right: 1rem;
   }
 }
@@ -136,7 +137,7 @@
 
 @media (min-width: 600px) and (max-width: 1000px) {
   .destination-cards {
-    gap: 0.5rem;
+    gap: 1rem;
   }
 
   .destination-card__image {

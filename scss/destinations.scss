@@ -1,4 +1,5 @@
 @use "./partials/global" as *;
+@use "./partials/variables" as *;
 
 .destination {
   background-position: center;
@@ -17,7 +18,7 @@
   }
 
   &__title {
-    color: #ffffff;
+    color: $color-canvas;
     font-size: 4rem;
     padding: 4rem 4rem;
     margin: 0;
@@ -31,15 +32,16 @@
 }
 
 .itinerary-card {
-  background-color: #ffffff;
+  background-color: $color-canvas;
   width: 15rem;
   border-radius: 5px;
   margin: 0 2rem;
   padding-bottom: 2.5rem;
 
   &__title {
+    color: $color-text-primary;
     text-align: center;
-    border-bottom: 3px solid black;
+    border-bottom: 3px solid $color-text-primary;
     margin: 1rem;
   }
 
@@ -48,15 +50,15 @@
     padding: 0;
   }
   &__activity {
-    background-color: #fefaf5;
+    background-color: $color-canvas-secondary;
     text-align: center;
     margin: 0.5rem 1rem;
     padding: 1rem 0;
     transition: background-color 2s;
 
     &:hover {
-      background-color: #335567;
-      color: #fff;
+      background-color: $color-text-primary;
+      color: $color-canvas;
     }
   }
 }

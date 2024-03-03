@@ -18,7 +18,7 @@ body {
   font-size: 1.1rem;
 }
 .site-logo__link {
-  color: #335567;
+  color: #335576;
   text-decoration: none;
 }
 
@@ -29,7 +29,7 @@ body {
 }
 .site-nav__link {
   text-decoration: none;
-  color: #335567;
+  color: #335576;
   margin: 0 0.7rem;
   padding-bottom: 0.3rem;
   padding-top: 0.2rem;
@@ -50,7 +50,7 @@ body {
 }
 
 .footer-title, .footer-social__title, .footer-hours__title, .footer-contact__title {
-  color: #335567;
+  color: #335576;
   margin: 0;
   padding-bottom: 1rem;
 }
@@ -64,7 +64,7 @@ body {
 }
 
 .footer-info, .footer-hours__info, .footer-contact__info {
-  color: #335567;
+  color: #335576;
   font-size: 0.9rem;
   font-weight: 100;
   margin: 0;
@@ -152,8 +152,9 @@ body {
   padding-bottom: 2.5rem;
 }
 .itinerary-card__title {
+  color: #335576;
   text-align: center;
-  border-bottom: 3px solid black;
+  border-bottom: 3px solid #335576;
   margin: 1rem;
 }
 .itinerary-card__activity-list {
@@ -168,8 +169,8 @@ body {
   transition: background-color 2s;
 }
 .itinerary-card__activity:hover {
-  background-color: #335567;
-  color: #fff;
+  background-color: #335576;
+  color: #ffffff;
 }
 
 @media (max-width: 600px) {
